@@ -1,0 +1,14 @@
+function countPositivesSumNegatives(input) {
+  let arr = []
+  let pos = 0
+  let negSum = 0
+  for(let i = 0; i<input.length;i++){
+    if(input[i]<0){
+      negSum += input[i]
+    }else{
+      pos += i
+    }
+  }
+  
+    return arr;
+}
